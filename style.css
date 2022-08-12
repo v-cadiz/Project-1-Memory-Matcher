@@ -1,0 +1,78 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .memory-match {
+    width: 750px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 9px;
+    border: 15px solid white;
+    object-fit: contain;
+  }
+  
+  .cards {
+    width: 170px;
+    height: 150px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .cards:hover {
+    border: 1px solid white;
+    box-sizing: border-box;
+    object-fit: contain;
+    overflow: hidden; 
+  }
+
+  .cards:active {
+    transition: 0.3s;
+  }
+  
+  .shoe-card {
+    width: 155px;
+    height: 115px;
+    position: relative;
+    border-radius: 1px;
+    margin: 5px;
+    background-color: white;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: wrap;
+    background-color: white;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  
+  .memory-match .flip img {
+     display: none;
+  }

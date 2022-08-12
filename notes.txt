@@ -1,0 +1,41 @@
+What does the MVP of this game look like?
+    A sneaker themed memory card game where you match the same pair of sneakers before the timer runs out!
+
+Put the elements of this project into priority order, and draw a line separating the core goals from the stretch goals.
+    - Get card to flip over or reveal when clicked
+    - Get cards to match 
+    - Create point system when cards match
+    - Get cards to shuffle/randomize for next game
+    
+
+Fix the not-specific-enough user stories from the readme here:
+
+
+Convert your list of game goals into discrete user stories. User stories should roughly be in the form of: "When I <do x>, I see <y thing happening>"
+    A fun memory matching game for any sneakerhead! Upon starting, the user must click on any card. The user will then have to flip another card to see if it matches the first flipped card. 
+Keep flipping any two cards to find the same pair of shoes. 1 point will be given for every pair of sneakers matched. The game ends when you have found all matching pairs of sneakers or when the timer runs out.
+
+What pieces of game state will we need for this game?
+    - 16 tiles
+    - 8 photos plus duplicates for the match (16 total)
+
+    When starting the game, click on any tile to reveal a photo
+    Click on another tile to reveal the second photo 
+    If second photo does not match the first photo, keep flipping
+
+
+Comments and/or current/ongoing issues:
+I first started off using CodePen as it was easier for me to see my project in real time versus having to console log and refresh often
+
+This is me starting over again on VSCode so that I can show my commits 
+
+An issue I had the first few days was getting started on HTML/CSS. Making sure all the tiles and photos are aligned and in order
+
+My goal today (8/9/22) was to start on the JavaScript portion of this project. Took me all day to figure out how to do a reveal (similar to TTT) instead of a flip animation. 
+Currently trying to start on the rest of the JS portion. Need to implement a restart button that shuffles and get the cards to match.
+
+Still have no idea what I'm doing but I am logging this progress anyway. 
+
+8/10/22 - got the reveal card to work and created a resart button, feeling behind on mvps. At the end of day, I got frustrated so I started over 
+
+8/11/22 - not everything is responsive yet 
