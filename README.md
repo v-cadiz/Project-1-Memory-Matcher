@@ -43,7 +43,7 @@ Player must then click on a second tile to reveal image.
 * Javascript
 
 ## Link to Game
-
+https://v-cadiz.github.io/Project-1-Memory-Matcher/
 
 ## Unsolved Problems
 * I was not able to implement the timer, move count, and scoreboard
